@@ -1,0 +1,32 @@
+{
+  "id": "598db158-e744-4707-b505-83740b53672a",
+  "name": "API_Records",
+  "publisher": "Keith How",
+  "version": "1.0.0.9",
+  "brief": "Records for Export",
+  "description": "Records for Export",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "./logo/KNH.jpg",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "20.0.0.0",
+  "idRanges": [
+    {
+      "from": 53600,
+      "to": 53649
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "12.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
