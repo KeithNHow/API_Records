@@ -3,7 +3,6 @@ permissionset 53600 KNHAPIPermSet
     Assignable = true;
     Permissions = tabledata KNHBlob = RIMD,
         table KNHBlob = X,
-        codeunit TableReview = X,
         page KNHSourceCodeAPI = X,
         query KNHCustLedgEntryAPI = X,
         query KNHCustomerAPI = X,
@@ -13,5 +12,7 @@ permissionset 53600 KNHAPIPermSet
         query KNHDimSetEntryAPI = X,
         query KNHSalespersonAPI = X,
         query KNHSourceCodeAPI = X,
-        page KNHBlob = X;
+        page KNHBlob = X,
+        page KNHPurchHeaderAPI = X,
+        page KNHPurchLineAPI = X;
 }

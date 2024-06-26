@@ -17,39 +17,39 @@ page 53601 KNHPurchHeaderAPI
         {
             repeater(General)
             {
-                field(id; Rec.SystemId) { }
-                field(documentType; Rec."Document Type") { }
-                field(buyFromVendorNo; Rec."Buy-from Vendor No.") { }
-                field(number; Rec."No.") { }
-                field(paytoVendorNo; Rec."Pay-to Vendor No.") { }
-                field(yourReference; Rec."Your Reference") { }
-                field(shiptoCode; Rec."Ship-to Code") { }
-                field(orderDate; Rec."Order Date") { }
-                field(postingDate; Rec."Posting Date") { }
-                field(expectedReceiptDate; Rec."Expected Receipt Date") { }
-                field(postingDescription; Rec."Posting Description") { }
-                field(paymentTermsCode; Rec."Payment Terms Code") { }
-                field(dueDate; Rec."Due Date") { }
-                field(paymentDiscountPerc; Rec."Payment Discount %") { }
-                field(pmtDiscountDate; Rec."Pmt. Discount Date") { }
-                field(shipmentMethodCode; Rec."Shipment Method Code") { }
-                field(locationCode; Rec."Location Code") { }
-                field(shortcutDimension1Code; Rec."Shortcut Dimension 1 Code") { }
-                field(shortcutDimension2Code; Rec."Shortcut Dimension 2 Code") { }
-                field(vendorPostingGroup; Rec."Vendor Posting Group") { }
-                field(currencyCode; Rec."Currency Code") { }
-                field(pricesIncludingVAT; Rec."Prices Including VAT") { }
-                field(invoiceDiscCode; Rec."Invoice Disc. Code") { }
-                field(languageCode; Rec."Language Code") { }
-                field(amount; Rec.Amount) { }
-                field(amountIncludingVAT; Rec."Amount Including VAT") { }
-                field(vATRegistrationNo; Rec."VAT Registration No.") { }
-                field(reasonCode; Rec."Reason Code") { }
-                field(genBusPostingGroup; Rec."Gen. Bus. posting group") { }
-                field(documentDate; Rec."Document Date") { }
-                field(paymentMethodCode; Rec."Payment Method Code") { }
-                field(noSeries; Rec."No. Series") { }
-                field(vatBusPostingGroup; Rec."VAT Bus. Posting Group") { }
+                //General
+                field(id; Rec.SystemId) { ShowCaption = true; }
+                field(documentNo; Rec."No.") { ShowCaption = true; }
+                field(documentType; Rec."Document Type") { ShowCaption = true; }
+                field(buyFromVendorNo; Rec."Buy-from Vendor No.") { ShowCaption = true; }
+                field(postingDate; Rec."Posting Date") { ShowCaption = true; }
+                field(documentDate; Rec."Document Date") { ShowCaption = true; }
+                field(dueDate; Rec."Due Date") { ShowCaption = true; }
+                field(vendorInvoiceNo; Rec."Vendor Invoice No.") { ShowCaption = true; }
+                field(yourReference; Rec."Your Reference") { ShowCaption = true; }
+                field(orderDate; Rec."Order Date") { ShowCaption = true; }
+                field(purchaserCode; Rec."Purchaser Code") { ShowCaption = true; }
+                field(vendorOrderNo; Rec."Vendor Order No.") { ShowCaption = true; }
+                field(vendorShipmentNo; Rec."Vendor Shipment No.") { ShowCaption = true; }
+                field(responsibilityCenter; Rec."Responsibility Center") { ShowCaption = true; }
+
+                //Invoice
+                field(currencyCode; Rec."Currency Code") { ShowCaption = true; }
+                field(vATBusPostingGroup; Rec."VAT Bus. Posting Group") { ShowCaption = true; }
+                field(vendorPostingGroup; Rec."Vendor Posting Group") { ShowCaption = true; }
+                field(postingDescription; Rec."Posting Description") { ShowCaption = true; }
+                field(paymentTermsCode; Rec."Payment Terms Code") { ShowCaption = true; }
+                field(departmentCode; Rec."Shortcut Dimension 1 Code") { }
+                field(customerGroupCode; Rec."Shortcut Dimension 2 Code") { }
+                field(paymentDiscountPerc; Rec."Payment Discount %") { ShowCaption = true; }
+                field(pmtDiscountDate; Rec."Pmt. Discount Date") { ShowCaption = true; }
+                field(shipmentMethodCode; Rec."Shipment Method Code") { ShowCaption = true; }
+                field(paymentReference; Rec."Payment Reference") { ShowCaption = true; }
+
+                //Ship and Pay
+                field(paytoVendorNo; Rec."Pay-to Vendor No.") { ShowCaption = true; }
+                field(remittoCode; Rec."Remit-to Code") { ShowCaption = true; }
+
                 part(PurchLineAPI; KNHPurchLineAPI)
                 {
                     Caption = 'Purchase Line';

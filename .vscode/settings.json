@@ -7,14 +7,13 @@
     ],
 
     "[al]": {
-        "editor.wordBasedSuggestions": "off",
+        "editor.wordBasedSuggestions":"allDocuments",
         "editor.suggestSelection": "first",
         "editor.formatOnSave": true,
         "editor.codeLens": false,
         "editor.semanticHighlighting.enabled": true,
     },
 
-    //"al.ruleSetPath": "./.vscode/ruleset.json",
     "al.backgroundCodeAnalysis": true,
     "al.enableCodeActions": true,
     "al.packageCachePath": "./.alpackages",
@@ -25,7 +24,6 @@
     },
 
     "CRS.ObjectNamePrefix": "KNH",
-    "CRS.DisableDefaultAlSnippets": false,
     "CRS.OnSaveAlFileAction": "Rename",
     "CRS.FileNamePattern": "<ObjectName>.<ObjectTypeShortPascalCase>.al",
     "CRS.FileNamePatternExtensions": "<ObjectName>.<ObjectTypeShortPascalCase>.al",
