@@ -13,7 +13,7 @@ page 53601 KNHPurchHeaderAPI
 
     layout
     {
-        area(content)
+        area(Content)
         {
             repeater(General)
             {

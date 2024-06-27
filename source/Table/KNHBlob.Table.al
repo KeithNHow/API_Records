@@ -38,7 +38,7 @@ table 53600 KNHBlob
         OutStream: OutStream;
     begin
         Clear(Rec."Long Description");
-        Rec."Long Description".CreateOutStream(OutStream, TEXTENCODING::UTF8);
+        Rec."Long Description".CreateOutStream(OutStream, TextEncoding::UTF8);
         OutStream.WriteText(NewLongDescription);
         Rec.Modify();
     end;
@@ -53,7 +53,7 @@ table 53600 KNHBlob
         InStream: InStream;
     begin
         CalcFields("Long Description");
-        "Long Description".CreateInStream(InStream, TEXTENCODING::UTF8);
+        "Long Description".CreateInStream(InStream, TextEncoding::UTF8);
         if not TypeHelper.TryReadAsTextWithSeparator(InStream, TypeHelper.LFSeparator(), LongDescription) then
             Message(ReadingDataSkippedMsg, FieldCaption("Long Description"));
     end;

@@ -15,7 +15,7 @@ page 53600 KNHSourceCodeAPI
 
     layout
     {
-        area(content)
+        area(Content)
         {
             repeater(General)
             {

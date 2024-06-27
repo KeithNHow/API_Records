@@ -18,7 +18,7 @@ query 53600 KNHCustomerOverviewAPI
             column(name; Name) { }
             dataitem(CLE; "Cust. Ledger Entry")
             {
-                DataItemLink = "Customer No." = Customer."No.";
+                DataItemLink = "Customer No." = customer."No.";
                 SqlJoinType = InnerJoin;
                 DataItemTableFilter = "Document Type" = filter(Invoice | "Credit Memo");
                 column(documentType; "Document Type") { }
@@ -35,7 +35,7 @@ query 53600 KNHCustomerOverviewAPI
                 column(dimension2Code; "Global Dimension 2 Code") { }
                 dataitem(DCLE; "Detailed Cust. Ledg. Entry")
                 {
-                    DataItemLink = "Customer No." = Customer."No.", "Cust. Ledger Entry No." = CLE."Entry No.";
+                    DataItemLink = "Customer No." = customer."No.", "Cust. Ledger Entry No." = CLE."Entry No.";
                     SqlJoinType = InnerJoin;
                     DataItemTableFilter = "Document Type" = filter(Invoice | "Credit Memo");
 

@@ -13,7 +13,7 @@ page 53603 KNHPurchLineAPI
 
     layout
     {
-        area(content)
+        area(Content)
         {
             repeater(General)
             {
