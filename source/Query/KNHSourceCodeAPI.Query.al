@@ -14,7 +14,7 @@ query 53604 KNHSourceCodeAPI
     {
         dataitem(sourceCode; "Source Code")
         {
-            column("code"; "Code") { }
+            column(code; "Code") { }
             column(description; Description) { }
         }
     }

@@ -10,6 +10,7 @@
         "editor.suggestSelection": "first",
         "editor.formatOnSave": true,
         "editor.codeLens": true,
+        "editor.wordWrap": "on",
         "editor.semanticHighlighting.enabled": true,
     },
     "al.backgroundCodeAnalysis": true,
@@ -31,6 +32,8 @@
         "RemoveUnusedVariables"
     ],
     "workbench.editor.enablePreview": true,
+    "workbench.tips.enabled": true,
+    
     "CRS.ObjectNamePrefix": "KNH",
     //"CRS.OnSaveAlFileAction": "Rename",
     "CRS.FileNamePattern": "<ObjectName>.<ObjectTypeShortPascalCase>.al",
