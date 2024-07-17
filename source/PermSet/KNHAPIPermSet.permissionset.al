@@ -13,6 +13,6 @@ permissionset 53600 KNHAPIPermSet
         query KNHSalespersonAPI = X,
         query KNHSourceCodeAPI = X,
         page KNHBlob = X,
-        page KNHPurchHeaderAPI = X,
+        page KNHPurchInvoiceAPI = X,
         page KNHPurchLineAPI = X;
 }

@@ -1,4 +1,4 @@
-page 53601 KNHPurchHeaderAPI
+page 53601 KNHPurchInvoiceAPI
 {
     APIGroup = 'knhGroup';
     APIPublisher = 'knh';
